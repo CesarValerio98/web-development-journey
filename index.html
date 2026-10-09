@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Portafolio de desarrollo web: proyectos de HTML, CSS, JavaScript y PHP, buenas prácticas y aprendizaje continuo."
+    >
+
+    <meta name="theme-color" content="#071426">
+
+    <title>Cesar Valerio | Desarrollador web en formación</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="container navigation" aria-label="Navegación principal">
+          <a class="brand" href="#inicio">
+    DEV<span aria-hidden="true"> / </span>PORTFOLIO
+</a>
+
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="inicio" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="eyebrow">DESARROLLO WEB · APRENDIZAJE CONTINUO</p>
+
+                <h1 id="hero-title">
+    Construyendo soluciones digitales con
+    <span>código.</span>
+</h1>
+
+                <p class="hero-description">
+                    Aprendo a crear sitios web accesibles, rápidos y
+                    funcionales utilizando tecnologías web y buenas
+                    prácticas de desarrollo.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#proyectos">
+                        Ver mis proyectos
+                    </a>
+
+                    <a class="button button-secondary" href="#sobre-mi">
+                        Conocer mi perfil
+                    </a>
+                </div>
+
+                <ul class="tech-list" aria-label="Tecnologías de aprendizaje">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+
+            <aside class="code-card" aria-label="Tecnologías de mi aprendizaje">
+                <div class="code-card-header">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    <span>mi-aprendizaje</span>
+                </div>
+
+                <div class="code-card-body">
+                    <p><span class="code-muted">01</span> HTML <span class="code-value">estructura</span></p>
+                    <p><span class="code-muted">02</span> CSS <span class="code-value">diseño</span></p>
+                    <p><span class="code-muted">03</span> JavaScript <span class="code-value">interacción</span></p>
+                    <p><span class="code-muted">04</span> PHP <span class="code-value">servidor</span></p>
+                    <p><span class="code-muted">05</span> Git <span class="code-value">versionado</span></p>
+                </div>
+
+                <p class="code-card-footer">
+                    Aprender · Construir · Mejorar
+                </p>
+            </aside>
+        </section>
+
+        <section class="section container" id="sobre-mi"
+                 aria-labelledby="about-title">
+            <div class="section-heading">
+                <p class="eyebrow">PERFIL</p>
+                <h2 id="about-title">Sobre mí</h2>
+            </div>
+
+            <p class="section-description">
+                Estoy desarrollando mis habilidades en programación web,
+                diseño de interfaces y creación de soluciones digitales.
+                Mi objetivo es aprender a construir aplicaciones útiles
+                mediante código claro, accesible y mantenible.
+            </p>
+            
+<div class="learning-controls">
+    <button
+        class="button button-secondary"
+        id="toggle-learning"
+        type="button"
+        aria-controls="learning-details"
+        aria-expanded="false"
+    >
+        Mostrar mi ruta de aprendizaje
+    </button>
+
+    <div id="learning-details" hidden>
+        <h3>Mi ruta de aprendizaje</h3>
+        <ul>
+            <li>HTML: estructura y contenido.</li>
+            <li>CSS: diseño adaptable y accesibilidad.</li>
+            <li>JavaScript: interactividad.</li>
+            <li>PHP y MySQL: desarrollo del lado del servidor.</li>
+            <li>Git: control de versiones.</li>
+        </ul>
+    </div>
+</div>
+        </section>
+
+        <section class="section container" id="proyectos"
+                 aria-labelledby="projects-title">
+            <div class="section-heading">
+                <p class="eyebrow">TRABAJO EN PROGRESO</p>
+                <h2 id="projects-title">Mis proyectos</h2>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <p class="project-number">PROYECTO 01</p>
+                    <h3>Portafolio personal</h3>
+                    <p>
+                        Mi primer sitio web para practicar HTML semántico,
+                        diseño adaptable, accesibilidad y fundamentos de SEO.
+                    </p>
+                    <ul class="project-tags" aria-label="Tecnologías utilizadas">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Git</li>
+                    </ul>
+                    <span class="project-status">En desarrollo</span>
+                </article>
+
+                <article class="project-card project-card-upcoming">
+                    <p class="project-number">PROYECTO 02</p>
+                    <h3>Aplicación con PHP</h3>
+                    <p>
+                        Próximo reto: aprender a procesar formularios
+                        y validar información en el servidor.
+                    </p>
+                    <ul class="project-tags" aria-label="Tecnologías previstas">
+                        <li>PHP</li>
+                        <li>Formularios</li>
+                    </ul>
+                    <span class="project-status">Próximamente</span>
+                </article>
+
+                <article class="project-card project-card-upcoming">
+                    <p class="project-number">PROYECTO 03</p>
+                    <h3>Aplicación con base de datos</h3>
+                    <p>
+                        Futuro proyecto para practicar almacenamiento,
+                        consultas y operaciones CRUD con MySQL.
+                    </p>
+                    <ul class="project-tags" aria-label="Tecnologías previstas">
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                    </ul>
+                    <span class="project-status">Próximamente</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="section container contact-section" id="contacto"
+                 aria-labelledby="contact-title">
+            <div class="section-heading">
+                <p class="eyebrow">CONECTEMOS</p>
+                <h2 id="contact-title">En construcción, paso a paso</h2>
+            </div>
+
+            <p class="section-description">
+                
+<form id="contact-form" class="contact-form">
+    <div class="form-group">
+        <label for="name">Nombre</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            required
+            minlength="2"
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="message">Mensaje</label>
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+            minlength="10"
+        ></textarea>
+    </div>
+
+    <button class="button button-primary" type="submit">
+        Validar formulario
+    </button>
+
+    <p id="form-feedback" role="status" aria-live="polite"></p>
+</form>
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>© 2026 · Cesar Valerio</p>
+            <p>Construido con HTML, CSS y aprendizaje continuo.</p>
+        </div>
+    </footer>
+     <script src="script.js" defer></script>
+</body>
+</html>
